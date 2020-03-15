@@ -2,6 +2,9 @@
 
 Reframe is a test template built from my first wireframe built in Figma.  I liked it enough to create this theme from it. Below are some functions to help you get the best use of this theme. The theme includes smooth scroll and scrollspy, and the ability to customize Bootstrap 4 defaults. View the [demo](https://steveshead.github.io/bootstrap4-reframe) site [here](https://steveshead.github.io/bootstrap4-reframe).
 
+### Nabar - change color on scroll
+When you scroll down the page the navigation changes from transparent to whatever color you have set to "primary".  To change the background color upon scroll simply change "bg-primary" in lines 6 and 8 of assets/js/custom.js to the bootstrap color you want to use.  For instance, bg-warning.
+
 
 ### Smooth Scroll
 The 'smoothscroll' code is included in assets/js/custom.js - You'll need to add ```data-smooth="#anchor"``` and ```href="#anchor"``` to your nav links if you add new menu items.  You'll also need to add an ID tag to the section you want smooth scroll to scroll to.
